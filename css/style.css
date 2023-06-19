@@ -1,0 +1,71 @@
+body{
+	width: 1020px;
+	height: 600px;
+	background-image: url("../images/galaxy.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.kosm{
+
+	display: inline-block;
+	width: 200px;
+	height: 170px;
+	position: absolute;
+	animation: mymove 15s infinite;
+}
+@keyframes mymove{
+	from { top: 200px }
+	to {top: 200px}
+	from {left: 100px}
+	to {left: 950px}
+}
+.met{
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+		position: relative;
+	animation: mymove2 10s infinite;
+}
+@keyframes mymove2{
+	from{left: 900px}
+	to { left:100px }
+	from{top: 50px}
+	to{ top: 400px }
+}
+.sat{
+	display: inline-block;
+	position: absolute;
+	
+}
+@keyframes mymove3{
+	from{ top:500px }
+	to{ top: 500px }
+	from{left: 100px}
+	to { left:1000px }
+}
+.n1{
+	display: inline-block;
+	width: 170px;
+	height: 100px;
+	position: absolute;
+	animation: mymove3 4s infinite;
+}
+.n2{
+	width: 200px;
+	height: 240px;
+	display: inline-block;
+	position: absolute;
+	animation: mymove4 10s infinite;
+	rotate: 300deg;
+
+}
+@keyframes mymove4{
+	from{ top: 430px }
+	to{ top: 10px }
+	from{left: 1250px}
+	to{left: 1250px}
+}
